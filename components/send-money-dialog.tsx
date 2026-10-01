@@ -21,7 +21,7 @@ import { Building, User } from "lucide-react"
 interface SendMoneyDialogProps {
   open: boolean
   onOpenChange: (open: boolean) => void
-  onSuccess: (amount: string, recipient: string) => void
+  onSuccess: (amount: string, recipient: string, fromAccount: string) => void
 }
 
 // Update the SendMoneyDialog component to include account selection
